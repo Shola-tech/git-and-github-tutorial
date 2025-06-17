@@ -1,0 +1,14 @@
+h1{
+    transform: translateY(12px);
+    animation: pointdown 500ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+    0% {
+        transform: translateY(0);
+
+    }
+    100% {
+        transform: translateY(12px);
+    }
+}
